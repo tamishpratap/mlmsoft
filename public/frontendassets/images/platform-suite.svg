@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 720" role="img" aria-labelledby="title desc">
+  <title id="title">Platform suite preview</title>
+  <desc id="desc">An operations suite showing payout controls, security checks, distributor panels, and analytics.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#f8fafc"/>
+      <stop offset="0.5" stop-color="#eef2ff"/>
+      <stop offset="1" stop-color="#ecfeff"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#2563eb"/>
+      <stop offset="0.5" stop-color="#7c3aed"/>
+      <stop offset="1" stop-color="#14b8a6"/>
+    </linearGradient>
+    <filter id="shadow" x="-16%" y="-16%" width="132%" height="132%">
+      <feDropShadow dx="0" dy="20" stdDeviation="22" flood-color="#0f172a" flood-opacity="0.13"/>
+    </filter>
+  </defs>
+  <rect width="980" height="720" rx="34" fill="url(#bg)"/>
+  <g opacity="0.42" stroke="#cbd5e1" stroke-width="1">
+    <path d="M80 120H900M80 240H900M80 360H900M80 480H900M80 600H900"/>
+    <path d="M160 70V650M320 70V650M480 70V650M640 70V650M800 70V650"/>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="92" y="86" width="350" height="248" rx="24" fill="#ffffff"/>
+    <rect x="130" y="126" width="164" height="20" rx="10" fill="#0f172a"/>
+    <rect x="130" y="162" width="244" height="14" rx="7" fill="#cbd5e1"/>
+    <rect x="130" y="204" width="244" height="18" rx="9" fill="#dbeafe"/>
+    <rect x="130" y="204" width="186" height="18" rx="9" fill="#2563eb"/>
+    <rect x="130" y="248" width="244" height="18" rx="9" fill="#ede9fe"/>
+    <rect x="130" y="248" width="214" height="18" rx="9" fill="#7c3aed"/>
+    <rect x="130" y="292" width="174" height="16" rx="8" fill="#ccfbf1"/>
+    <rect x="130" y="292" width="132" height="16" rx="8" fill="#14b8a6"/>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="500" y="86" width="388" height="248" rx="24" fill="#ffffff"/>
+    <circle cx="612" cy="210" r="70" fill="none" stroke="#dbeafe" stroke-width="24"/>
+    <path d="M612 140A70 70 0 0 1 678 234" fill="none" stroke="#2563eb" stroke-width="24" stroke-linecap="round"/>
+    <path d="M678 234A70 70 0 0 1 562 260" fill="none" stroke="#7c3aed" stroke-width="24" stroke-linecap="round"/>
+    <text x="579" y="218" fill="#0f172a" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="900">82%</text>
+    <rect x="722" y="148" width="104" height="18" rx="9" fill="#0f172a"/>
+    <rect x="722" y="188" width="126" height="12" rx="6" fill="#cbd5e1"/>
+    <rect x="722" y="220" width="92" height="12" rx="6" fill="#cbd5e1"/>
+    <rect x="722" y="252" width="132" height="12" rx="6" fill="#cbd5e1"/>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="92" y="386" width="796" height="248" rx="24" fill="#ffffff"/>
+    <rect x="128" y="428" width="156" height="20" rx="10" fill="#0f172a"/>
+    <rect x="128" y="474" width="706" height="42" rx="12" fill="#f8fafc"/>
+    <rect x="158" y="488" width="118" height="14" rx="7" fill="#2563eb"/>
+    <rect x="360" y="488" width="106" height="14" rx="7" fill="#cbd5e1"/>
+    <rect x="560" y="488" width="98" height="14" rx="7" fill="#14b8a6"/>
+    <rect x="744" y="488" width="58" height="14" rx="7" fill="#0f172a"/>
+    <rect x="128" y="536" width="706" height="42" rx="12" fill="#f8fafc"/>
+    <rect x="158" y="550" width="144" height="14" rx="7" fill="#7c3aed"/>
+    <rect x="360" y="550" width="96" height="14" rx="7" fill="#cbd5e1"/>
+    <rect x="560" y="550" width="108" height="14" rx="7" fill="#ec4899"/>
+    <rect x="744" y="550" width="72" height="14" rx="7" fill="#0f172a"/>
+  </g>
+  <circle cx="836" cy="118" r="34" fill="url(#accent)"/>
+  <path d="M824 119L833 128L850 108" fill="none" stroke="#ffffff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

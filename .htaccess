@@ -1,0 +1,8 @@
+
+RewriteEngine on
+
+# Force non-www to www
+RewriteCond %{HTTP_HOST} ^mlmsoftwares\.org$ [NC]
+RewriteRule ^(.*)$ https://www.mlmsoftwares.org/$1 [R=301,L]
+RewriteCond %{REQUEST_URI} !^public
+RewriteRule ^(.*)$ public/$1 [L]
